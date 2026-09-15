@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-       "server": "json-server jobs.json --port 8000"
-  },
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "server": "json-server jobs.json --host 0.0.0.0 --port $PORT"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
