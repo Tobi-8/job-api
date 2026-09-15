@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
+"scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  "server": "json-server jobs.json --host 0.0.0.0 --port $PORT"
+  "server": "node node_modules/json-server/lib/cli/bin.js jobs.json --host 0.0.0.0 --port $PORT"
 },
   "keywords": [],
   "author": "",
